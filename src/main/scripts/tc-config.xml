@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:tc-config xmlns:con="http://www.terracotta.org/config">
+    <servers>
+        <server host="%i" name="sample"/>
+        <update-check>
+            <enabled>true</enabled>
+        </update-check>
+    </servers>
+    <clients>
+        <logs>logs/terracotta/client-logs/%(tc.instance)</logs>
+        <statistics>logs/terracotta/client-statistics/%(tc.instance)</statistics>
+        <modules>
+            <!--<repository>/opt/java/terracotta/modules</repository>-->
+            <repository>/Users/bayo/devtools/terracotta/terracotta-3.5.0/modules</repository>
+            <module group-id="org.compass-project" name="compass" version="2.0.2"/>
+        </modules>
+        <dso>
+            <debugging>
+                <instrumentation-logging>
+                    <hierarchy>false</hierarchy>
+                    <transient-root>false</transient-root>
+                </instrumentation-logging>
+            </debugging>
+        </dso>
+    </clients>
+    <application>
+        <dso>
+            <instrumented-classes>
+                <include>
+                    <class-expression>org.hibernate.search.store.TerracottaDirectoryProvider</class-expression>
+                </include>
+            </instrumented-classes>
+            <roots>
+                <root>
+                    <field-name>org.hibernate.search.store.TerracottaDirectoryProvider.directory</field-name>
+                </root>
+            </roots>
+            <locks>
+            </locks>
+        </dso>
+    </application>
+</con:tc-config>
