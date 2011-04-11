@@ -36,13 +36,13 @@ runTerracota()
 	TC_CONFIG_PATH="${CWD}/config/tc-config.xml"
 	set -- -q
 
-	. "${TC_INSTALL_DIR}/bin/dso-env.sh"
+	. "${TC_INSTALL_DIR}/platform/bin/dso-env.sh"
 
 	${JAVA_HOME}/bin/java ${TC_JAVA_OPTS} \
 	-Djava.awt.Window.locationByPlatform=true \
 	-Dtc.instance=$counter \
 	${JAVA_OPTS} \
-	-cp /hsearch-demo-1.0.0-SNAPSHOT.jar org.hibernate.search.demo.SearchDemo $ARGS > $HIBERNATE_LOG  &
+	-cp ${CWD}/lib/hsearch-demo-1.0.0-SNAPSHOT.jar org.hibernate.search.demo.SearchDemo $ARGS > $HIBERNATE_LOG  &
 	echo $? >> pids
 }
 
@@ -54,7 +54,7 @@ runStandalone()
 	echo $? >> pids
 }
 
-echo -n "Wich app type should be started standalone[s] or terracotta[t]: "
+echo -n "Which app type should be started standalone[s] or terracotta[t]: "
 read appType
 
 case $appType in   

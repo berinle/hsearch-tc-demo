@@ -1,77 +1,77 @@
-delete from PRODUCT_CATEGORY
-delete from PRODUCT_ACTORS
-delete from ACTORS
-delete from PRODUCTS
-delete from CATEGORIES
+delete from PRODUCT_CATEGORY;
+delete from PRODUCT_ACTORS;
+delete from ACTORS;
+delete from PRODUCTS;
+delete from CATEGORIES;
 
-insert into ACTORS (ID, NAME) values (1, 'Tom Hanks')
-insert into ACTORS (ID, NAME) values (2, 'Katie Holmes')
-insert into ACTORS (ID, NAME) values (3, 'Drew Barrymore')
-insert into ACTORS (ID, NAME) values (4, 'Daniel Radcliffe')
-insert into ACTORS (ID, NAME) values (5, 'Jim Carrey')
-insert into ACTORS (ID, NAME) values (6, 'Scarlett Johansson')
-insert into ACTORS (ID, NAME) values (7, 'Bill Murray')
-insert into ACTORS (ID, NAME) values (8, 'Owen Wilson')
-insert into ACTORS (ID, NAME) values (9, 'Luke Wilson')
-insert into ACTORS (ID, NAME) values (10, 'Tobey Maguire')
-insert into ACTORS (ID, NAME) values (11, 'John Cusak')
-insert into ACTORS (ID, NAME) values (12, 'Jack Black')
-insert into ACTORS (ID, NAME) values (13, 'Keanu Reeves')
-insert into ACTORS (ID, NAME) values (14, 'Christopher Reeve')
-insert into ACTORS (ID, NAME) values (15, 'Harrison Ford')
-insert into ACTORS (ID, NAME) values (16, 'Kirsten Dunst')
-insert into ACTORS (ID, NAME) values (17, 'Elijah Wood')
-insert into ACTORS (ID, NAME) values (18, 'Laurence Fishburne')
-insert into ACTORS (ID, NAME) values (19, 'Meg Ryan')
-insert into ACTORS (ID, NAME) values (20, 'Billy Crystal')
-insert into ACTORS (ID, NAME) values (21, 'Wesley Snipes')
-insert into ACTORS (ID, NAME) values (22, 'Ewan McGregor')
-insert into ACTORS (ID, NAME) values (23, 'Natalie Portman')
-insert into ACTORS (ID, NAME) values (24, 'Jon Heder')
-insert into ACTORS (ID, NAME) values (25, 'Vince Vaughn')
-insert into ACTORS (ID, NAME) values (26, 'Ben Stiller')
-insert into ACTORS (ID, NAME) values (27, 'Matt Damon')
-insert into ACTORS (ID, NAME) values (28, 'Jodie Foster')
-insert into ACTORS (ID, NAME) values (29, 'Matthew McConaughey')
-insert into ACTORS (ID, NAME) values (30, 'Ed Harris')
-insert into ACTORS (ID, NAME) values (31, 'Ralph Fiennes')
-insert into ACTORS (ID, NAME) values (32, 'Gwyneth Paltrow')
-insert into ACTORS (ID, NAME) values (33, 'Brad Pitt')
-insert into ACTORS (ID, NAME) values (34, 'Angelina Jolie')
-insert into ACTORS (ID, NAME) values (35, 'Edward Norton')
-insert into ACTORS (ID, NAME) values (36, 'Adam Sandler')
-insert into ACTORS (ID, NAME) values (37, 'Johnny Depp')
-insert into ACTORS (ID, NAME) values (38, 'Keira Knightley')
-insert into ACTORS (ID, NAME) values (39, 'Robin Williams')
-insert into ACTORS (ID, NAME) values (40, 'Tom Cruise')
-insert into ACTORS (ID, NAME) values (41, 'Bruce Willis')
-insert into ACTORS (ID, NAME) values (42, 'Patrick Stewart')
-insert into ACTORS (ID, NAME) values (43, 'Halle Berry')
-insert into ACTORS (ID, NAME) values (44, 'Jennifer Aniston')
-insert into ACTORS (ID, NAME) values (45, 'Julia Stiles')
-insert into ACTORS (ID, NAME) values (46, 'Winona Ryder')
-insert into ACTORS (ID, NAME) values (47, 'Kate Hudson')
-insert into ACTORS (ID, NAME) values (48, 'Uma Thurman')
-insert into ACTORS (ID, NAME) values (49, 'Julia Roberts')
-insert into ACTORS (ID, NAME) values (50, 'Steve Carell')
-insert into ACTORS (ID, NAME) values (51, 'Catherine Keener')
-insert into ACTORS (ID, NAME) values (52, 'Franka Potente')
-insert into ACTORS (ID, NAME) values (53, 'Catherine Zeta-Jones')
-insert into ACTORS (ID, NAME) values (54, 'Tim Robbins')
-insert into ACTORS (ID, NAME) values (55, 'Cate Blanchett')
-insert into ACTORS (ID, NAME) values (56, 'Orlando Bloom')
-insert into ACTORS (ID, NAME) values (57, 'Liv Tyler')
-insert into ACTORS (ID, NAME) values (58, 'Ben Affleck')
-insert into ACTORS (ID, NAME) values (59, 'Jack Nicholson')
-insert into ACTORS (ID, NAME) values (60, 'Meryl Streep')
-insert into ACTORS (ID, NAME) values (61, 'John Travolta')
-insert into ACTORS (ID, NAME) values (62, 'Cary Grant')
-insert into ACTORS (ID, NAME) values (63, 'Woody Allen')
-insert into ACTORS (ID, NAME) values (64, 'Will Smith')
-insert into ACTORS (ID, NAME) values (65, 'Sean Connery')
-insert into ACTORS (ID, NAME) values (66, 'Kevin Costner')
-insert into ACTORS (ID, NAME) values (67, 'Arnold Schwarzenegger')
-insert into ACTORS (ID, NAME) values (68, 'Audrey Hepburn')
+insert into ACTORS (ID, NAME) values (1, 'Tom Hanks');
+insert into ACTORS (ID, NAME) values (2, 'Katie Holmes');
+insert into ACTORS (ID, NAME) values (3, 'Drew Barrymore');
+insert into ACTORS (ID, NAME) values (4, 'Daniel Radcliffe');
+insert into ACTORS (ID, NAME) values (5, 'Jim Carrey');
+insert into ACTORS (ID, NAME) values (6, 'Scarlett Johansson');
+insert into ACTORS (ID, NAME) values (7, 'Bill Murray');
+insert into ACTORS (ID, NAME) values (8, 'Owen Wilson');
+insert into ACTORS (ID, NAME) values (9, 'Luke Wilson');
+insert into ACTORS (ID, NAME) values (10, 'Tobey Maguire');
+insert into ACTORS (ID, NAME) values (11, 'John Cusak');
+insert into ACTORS (ID, NAME) values (12, 'Jack Black');
+insert into ACTORS (ID, NAME) values (13, 'Keanu Reeves');
+insert into ACTORS (ID, NAME) values (14, 'Christopher Reeve');
+insert into ACTORS (ID, NAME) values (15, 'Harrison Ford');
+insert into ACTORS (ID, NAME) values (16, 'Kirsten Dunst');
+insert into ACTORS (ID, NAME) values (17, 'Elijah Wood');
+insert into ACTORS (ID, NAME) values (18, 'Laurence Fishburne');
+insert into ACTORS (ID, NAME) values (19, 'Meg Ryan');
+insert into ACTORS (ID, NAME) values (20, 'Billy Crystal');
+insert into ACTORS (ID, NAME) values (21, 'Wesley Snipes');
+insert into ACTORS (ID, NAME) values (22, 'Ewan McGregor');
+insert into ACTORS (ID, NAME) values (23, 'Natalie Portman');
+insert into ACTORS (ID, NAME) values (24, 'Jon Heder');
+insert into ACTORS (ID, NAME) values (25, 'Vince Vaughn');
+insert into ACTORS (ID, NAME) values (26, 'Ben Stiller');
+insert into ACTORS (ID, NAME) values (27, 'Matt Damon');
+insert into ACTORS (ID, NAME) values (28, 'Jodie Foster');
+insert into ACTORS (ID, NAME) values (29, 'Matthew McConaughey');
+insert into ACTORS (ID, NAME) values (30, 'Ed Harris');
+insert into ACTORS (ID, NAME) values (31, 'Ralph Fiennes');
+insert into ACTORS (ID, NAME) values (32, 'Gwyneth Paltrow');
+insert into ACTORS (ID, NAME) values (33, 'Brad Pitt');
+insert into ACTORS (ID, NAME) values (34, 'Angelina Jolie');
+insert into ACTORS (ID, NAME) values (35, 'Edward Norton');
+insert into ACTORS (ID, NAME) values (36, 'Adam Sandler');
+insert into ACTORS (ID, NAME) values (37, 'Johnny Depp');
+insert into ACTORS (ID, NAME) values (38, 'Keira Knightley');
+insert into ACTORS (ID, NAME) values (39, 'Robin Williams');
+insert into ACTORS (ID, NAME) values (40, 'Tom Cruise');
+insert into ACTORS (ID, NAME) values (41, 'Bruce Willis');
+insert into ACTORS (ID, NAME) values (42, 'Patrick Stewart');
+insert into ACTORS (ID, NAME) values (43, 'Halle Berry');
+insert into ACTORS (ID, NAME) values (44, 'Jennifer Aniston');
+insert into ACTORS (ID, NAME) values (45, 'Julia Stiles');
+insert into ACTORS (ID, NAME) values (46, 'Winona Ryder');
+insert into ACTORS (ID, NAME) values (47, 'Kate Hudson');
+insert into ACTORS (ID, NAME) values (48, 'Uma Thurman');
+insert into ACTORS (ID, NAME) values (49, 'Julia Roberts');
+insert into ACTORS (ID, NAME) values (50, 'Steve Carell');
+insert into ACTORS (ID, NAME) values (51, 'Catherine Keener');
+insert into ACTORS (ID, NAME) values (52, 'Franka Potente');
+insert into ACTORS (ID, NAME) values (53, 'Catherine Zeta-Jones');
+insert into ACTORS (ID, NAME) values (54, 'Tim Robbins');
+insert into ACTORS (ID, NAME) values (55, 'Cate Blanchett');
+insert into ACTORS (ID, NAME) values (56, 'Orlando Bloom');
+insert into ACTORS (ID, NAME) values (57, 'Liv Tyler');
+insert into ACTORS (ID, NAME) values (58, 'Ben Affleck');
+insert into ACTORS (ID, NAME) values (59, 'Jack Nicholson');
+insert into ACTORS (ID, NAME) values (60, 'Meryl Streep');
+insert into ACTORS (ID, NAME) values (61, 'John Travolta');
+insert into ACTORS (ID, NAME) values (62, 'Cary Grant');
+insert into ACTORS (ID, NAME) values (63, 'Woody Allen');
+insert into ACTORS (ID, NAME) values (64, 'Will Smith');
+insert into ACTORS (ID, NAME) values (65, 'Sean Connery');
+insert into ACTORS (ID, NAME) values (66, 'Kevin Costner');
+insert into ACTORS (ID, NAME) values (67, 'Arnold Schwarzenegger');
+insert into ACTORS (ID, NAME) values (68, 'Audrey Hepburn');
 insert into PRODUCTS (PROD_ID, ASIN, TITLE, PRICE, IMAGE_URL, DESCRIPTION) values ('1', '630522577X', 'My Fair Lady', 19.98, 'http://images.amazon.com/images/P/630522577X.01.MZZZZZZZ.jpg', 'Hollywood''s legendary "woman''s director," George Cukor (The Women, The Philadelphia Story), transformed Audrey Hepburn into street-urchin-turned-proper-lady Eliza Doolittle in this film version of the Lerner and Loewe musical. Based on George Bernard Shaw''s play Pygmalion, My Fair Lady stars Rex Harrison as linguist Henry Higgins (Harrison also played the role, opposite Julie Andrews, on stage), who draws Eliza into a social experiment that works almost too well. The letterbox edition of this film on video certainly pays tribute to the pageantry of Cukor''s set, but it also underscores a certain visual stiffness that can slow viewer enthusiasm just a tad. But it''s really star wattage that keeps this film exciting, that and such great songs as "On the Street Where You Live" and "I Could Have Danced All Night." Actor Jeremy Brett, who gained a huge following later in life portraying Sherlock Holmes, is quite electric as Eliza''s determined suitor. ');
 insert into PRODUCT_ACTORS (PROD_ID,ACTOR_ID) values (1, 68)
 insert into CATEGORIES (CATEGORY, NAME) values (1, 'Children');
