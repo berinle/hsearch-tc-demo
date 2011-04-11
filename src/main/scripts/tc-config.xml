@@ -14,7 +14,7 @@
         <modules>
             <!--<repository>/opt/java/terracotta/modules</repository>-->
             <repository>/Users/bayo/devtools/terracotta/terracotta-3.5.0/modules</repository>
-            <module group-id="org.compass-project" name="compass" version="2.0.2"/>
+            <module group-id="org.compass-project" name="compass" version="2.2.0"/>
         </modules>
         <dso>
             <debugging>
